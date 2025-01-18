@@ -18,25 +18,12 @@ import mj1 from "../../components/Assets/mj1.jpg"
 import mj2 from "../../components/Assets/mj2.jpg"
 import mj3 from "../../components/Assets/mj3.jpg"
 
-export const Home = () => {
+export const Work = () => {
     return(
         <>
             <NavBar />
             <div className="home-page">
-                <h1 className="home-title">
-                    Buy Today <br/>Or Return Tomorrow
-                </h1>
-                <h3 className="hereWeGoAgain">
-                    Your happiness: Our Priority, Sustainability: Our Achievement
-                </h3>
-                <button className="home-button">
-                <span class="material-symbols-outlined store"> store </span>
-                    Shop Now
-                </button>
-                <button className="navbar-button">
-                <span class="material-symbols-outlined store"> store </span>
-                    Shop Now
-                </button>
+                
             </div>
         </>
     )

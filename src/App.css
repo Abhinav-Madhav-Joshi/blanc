@@ -39,8 +39,7 @@
 
 .home-page{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   background-color: bisque;
   height: 170vh;
   border-top: 1px solid black;
@@ -48,9 +47,48 @@
   gap: 40px;
 }
 
-.card{
-  width: 13rem;
-  height: 10rem;
-  
+.home-title{
+  font-size: 400%;
+  height: fit-content;
+  width: 100%;
+  background-color: bisque;
+  margin-left: 35px;
+  margin-top: 4%;
 }
+
+.home-button{
+  font-size: 130%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(247, 17, 17);
+  margin-top: 25%;
+  left: 40%;
+}
+
+.navbar-button{
+  position: absolute;
+  right: 1%;
+  top: 1.9%;
+  height: fit-content;
+  background-color: rgb(247, 17, 17);
+  width: 8%;
+  display: flex;
+  align-items: center;
+}
+
+.hereWeGoAgain{
+  position: absolute;
+  height: fit-content;
+  background-color: bisque;
+  width: 100%;
+  margin-top: 17%;
+  margin-left: 35px;
+}
+
+.store{
+  background-color: rgb(247, 17, 17);
+}
+
 

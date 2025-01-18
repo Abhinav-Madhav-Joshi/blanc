@@ -11,7 +11,7 @@ export const Bruh = ({title,text,imgSrc}) => {
         <Card.Text>
           {text}
         </Card.Text>
-        <Button variant="primary">Buy today return tom</Button>
+        <Button className="button" variant="primary">Buy or Rent</Button>
       </Card.Body>
     </Card>
     </div>
