@@ -3,9 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function BasicExample() {
+export const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" style={{justifySelf:'left'}}>
       <Container>
         <Navbar.Brand href="#home">BLANC</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,5 +30,3 @@ function BasicExample() {
     </Navbar>
   );
 }
-
-export default BasicExample;

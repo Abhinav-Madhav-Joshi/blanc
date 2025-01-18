@@ -39,8 +39,19 @@
 
 .home-page{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: bisque;
-  height: 95vh;
+  height: 170vh;
   border-top: 1px solid black;
+  padding: 40px 10px 0px;
+  gap: 0px 40px;
+}
+
+.icon{
+  background-color: aqua;
+  border: 1px solid black;
+  height: 33%;
+  width: 13%;
 }
 
