@@ -9,25 +9,42 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const NewNavbar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar expand="lg" className="bg-secondary-subtle end-0 "  style ={{ height:window.innerWidth >= 992? "20vh":"25vh"}}>
+      <Container className='bg-secondary-subtle container-fluid'> 
+
+        <Navbar.Brand href="#home"  >
+           <img src={logo} className="img-fluid col-lg-3 col-xl-3 col-2 img-rounded p2"  style={{JustifySelf: 'left'}}   alt="" />
+            Funky Punk
+        </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+
+          <Nav>
+
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+
+            {/* <form class="form-inline" action="/action_page.php">
+              <div class="form-group">
+                <label for="Search">Search:</label>
+                <input type="email" class="form-control" id="email"></input>
+              </div>
+            </form> */}
+
+            <NavDropdown title="Men" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Jackets</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Two piece suits</NavDropdown.Item>
             </NavDropdown>
+
+            <NavDropdown title="Women" id="basic-nav-dropdown-2">
+              <NavDropdown.Item href="#action/3.1">Dresses</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Jackets</NavDropdown.Item>
+            </NavDropdown>
+
+            <Navbar.Brand href="#cart" className='justify-content-right'>
+              <img src={cart} class="img-fluid col-lg-3 col-xl-3  col-2 position-absolute end-100 m5 p5" style={{justifySelf:'right', maxWidth: "80px" , maxHeight: "80px" }} alt="cart" />
+            </Navbar.Brand>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
