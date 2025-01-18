@@ -1,9 +1,13 @@
+import React from 'react'
+import './navbar.css'
+import logo from '../Assets/logo.png'
+import cart from '../Assets/cart.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function BasicExample() {
+export const NewNavbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -27,8 +31,33 @@ function BasicExample() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
-  );
+    </Navbar>
+
+
+)
 }
 
-export default BasicExample;
+// <div className='navbar'>
+//     <div className="nav-logo">
+//         <img src={logo} alt="" />
+//         <p>SHOPPER</p>
+//     </div>
+//     <ul className="nav-menu">
+//         <li>Shop<hr/></li>
+//         <li>Men</li>
+//         {/* <ul className="menClothes">
+//             <li>coats</li>
+//             <li>jackets</li>
+//         </ul> */}
+//         <li>Women</li>
+//         {/* <ul className="womenClothes">
+//             <li>coats</li>
+//             <li>dress</li>
+//             <li>jackets</li>
+//         </ul> */}
+//     </ul>
+//     <div className="nav-login-cart">
+//         <button>Login</button>
+//         <img src={cart} alt="" />
+//     </div>
+// </div>
