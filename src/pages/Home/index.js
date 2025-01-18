@@ -5,7 +5,9 @@ export const Home = () => {
     return(
         <>
             <BasicExample />
-            <Sidebar />
+            <div className="home-page">
+                
+            </div>
         </>
     )
 }

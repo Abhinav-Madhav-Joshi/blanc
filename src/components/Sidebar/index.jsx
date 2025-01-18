@@ -4,7 +4,7 @@ export const Sidebar = () => {
     return (
       <aside className="sidebar">
         <NavLink to="/" className={({ isActive }) => isActive ? "active-class homelink" : "homelink"}>
-          <span class="material-icons-outlined" style={{fontSize:"2.5cap"}}>home</span>
+          <span class="material-icons-outlined " style={{fontSize:"2.5cap"}}>home</span>
           <span className="links">Home</span>
         </NavLink>
         <NavLink to="/cart" className={({ isActive }) => isActive ? "active-class asb" : "asb"}>

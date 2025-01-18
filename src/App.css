@@ -37,6 +37,10 @@
   }
 }
 
-/* .sidebar{
-  
-} */
+.home-page{
+  display: flex;
+  background-color: bisque;
+  height: 95vh;
+  border-top: 1px solid black;
+}
+
