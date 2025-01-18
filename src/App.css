@@ -37,6 +37,20 @@
   }
 }
 
-/* .sidebar{
+.home-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: bisque;
+  height: 170vh;
+  border-top: 1px solid black;
+  padding: 40px 10px 0px;
+  gap: 40px;
+}
+
+.card{
+  width: 13rem;
+  height: 10rem;
   
-} */
+}
+
