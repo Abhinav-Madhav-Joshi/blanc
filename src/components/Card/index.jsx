@@ -1,18 +1,19 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-export const Bruh = () => {
+export const Bruh = ({title,text,imgSrc}) => {
   return (
-    <Card style={{ width: '13rem', height: '10rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <div className='width'>
+    <Card className='card'>
+      <Card.Img variant="top" src={imgSrc} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {text}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Buy today return tom</Button>
       </Card.Body>
     </Card>
+    </div>
   );
 }

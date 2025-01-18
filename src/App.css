@@ -45,13 +45,12 @@
   height: 170vh;
   border-top: 1px solid black;
   padding: 40px 10px 0px;
-  gap: 0px 40px;
+  gap: 40px;
 }
 
-.icon{
-  background-color: aqua;
-  border: 1px solid black;
-  height: 33%;
-  width: 13%;
+.card{
+  width: 13rem;
+  height: 10rem;
+  
 }
 
