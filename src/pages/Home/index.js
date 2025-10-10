@@ -26,8 +26,7 @@ export const Home = () => {
         <>
             <NavBar />
             <div className="home">
-                {products.map((p) => (<ProductCard id={p.id} title={p.title} text={p.text} 
-                imgSrc={p.imgSrc} />))}
+                {products.map((p) => (<ProductCard id={p.id} title={p.title} text={p.text} imgSrc={p.imgSrc} />))}
            </div>
         </>
     )

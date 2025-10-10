@@ -8,6 +8,18 @@
   padding: 40px 10px 0px;
 }
 
+.cart{
+  background-color: #FFBDBD;
+  border-top: 1px solid black;
+  display: flex;
+  min-height: 100vh;
+}
+
+.checkout{
+  width: 59vw;
+  border-right: 1px solid grey;
+}
+
 .cardWrapper {
   width: 13rem;
   margin: 1rem;
@@ -32,5 +44,51 @@
 .cardButton:hover {
   transform: scale(1.02);
   box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.buyButton{
+  background-color: rgb(247, 133, 12);
+  margin: 0px 30px 10px 0;
+  width: 7em;
+}
+
+.buyButton:hover{
+  transform: scale(1.01);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.rentButton{
+  background-color: rgb(247, 133, 12);
+  margin: 0px 0px 10px 0;
+  width: 7em;
+}
+
+.rentButton:hover{
+  transform: scale(1.01);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.product{
+  background-color: #BADFDB;
+  display: flex;
+  padding: 40px 50px 0;
+  min-height: 100vh;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.prodContent{
+  margin-left: 40px;
+  width: 100%;
+}
+
+.prodText{
+  border-bottom: 2px solid black;
+  width: 100%;
+  font-size: larger;
+}
+
+.prodDetails{
+  white-space: pre-line;
 }
 
