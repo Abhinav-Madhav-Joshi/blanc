@@ -9,11 +9,11 @@ export const Cart = () => {
         setTimeout(() => {alert("Your order has been placed!\nHope you have a great day!");}, 10);
     };
 
-    const s1 = () => { alert("We'll try to provide with better next time"); };
+    const s1 = () => { alert("We'll try to provide you with better service next time"); };
 
-    const s2 = () => { alert("We'll try to provide with better next time"); };
+    const s2 = () => { alert("We'll try to provide you with better service next time"); };
 
-    const s3 = () => { alert("We'll try to provide with better next time"); };
+    const s3 = () => { alert("We'll try to provide you with better service next time"); };
 
     const s4 = () => { alert("Thanks for 4 stars"); };
 
