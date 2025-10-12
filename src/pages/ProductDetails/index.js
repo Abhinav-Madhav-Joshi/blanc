@@ -33,11 +33,9 @@ export const ProductDetails = () => {
     <>
       <NavBar />
       <div className="product">
-        <div>
-        <img className="prodImg" src={product.imgSrc} alt={product.title} style={{ width: '400px', borderRadius: '10px' }} />
-        </div>
+        <img className="prodImg" src={product.imgSrc} alt={product.title}/>
         <div className='prodContent'>
-        <h1>{product.title}</h1>
+        <h1 className='prodTitle'>{product.title}</h1>
         <p className='prodText'>{product.text}</p>
         <p className='prodDetails'>{prod.details(id, cartDispatch)}</p>
         </div>

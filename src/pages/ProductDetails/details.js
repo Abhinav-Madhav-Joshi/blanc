@@ -20,8 +20,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -35,12 +37,13 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
                 Machine Wash
-                </p>
+            </p>
 
             <p> <u style={{fontSize:20, fontWeight:550}}> Specifications </u> <br />
                 <span style={{fontWeight:500}}>Fabrics:</span> Pure Cotton <br />
@@ -75,8 +78,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -90,7 +95,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M  <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -130,8 +136,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -145,7 +153,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M  <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -185,8 +194,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -200,7 +211,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M  <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -240,8 +252,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -255,7 +269,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -295,8 +310,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -310,7 +327,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -350,8 +368,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -365,7 +385,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -405,8 +426,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -420,7 +443,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -460,8 +484,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -475,7 +501,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -515,8 +542,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -530,7 +559,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'4'') is wearing a size M <br />
+                The model (height 5'4'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -570,8 +600,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -585,7 +617,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -625,8 +658,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -640,7 +675,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -680,8 +716,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -695,7 +733,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -735,8 +774,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -750,7 +791,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -790,8 +832,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -805,7 +849,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -845,8 +890,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -860,7 +907,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />
@@ -900,8 +948,10 @@ export const prodDetails=[
                     <span class="material-symbols-outlined"> multiple_stop </span> Easy 14 days return available
                 </div>
             </p>
-            <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch)}>Buy</Button>
-            <Button className="rentButton" variant=''onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            <div style={{display:'flex'}}>
+                <Button className="buyButton" variant='' onClick={() => handleBuy(id, cartDispatch, cartDispatch)}>Buy</Button>
+                <Button className="rentButton" variant='' onClick={() => handleRent(id, cartDispatch)}>Rent</Button>
+            </div>
             <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))"}}>
             <p> <u style={{fontWeight:550}}>Product Details</u> <br />
                 Elegant formal coat for women <br />
@@ -915,7 +965,8 @@ export const prodDetails=[
 
                 <u style={{fontWeight:550}}>Size & Fit</u> <br />
                 Relaxed Fit <br />
-                The model (height 5'11'') is wearing a size M <br />
+                The model (height 5'11'') <br />
+                The model is wearing a size M <br />
 
                 <u style={{fontWeight:550}}> Material & Care </u> <br />
                 100% Cotton <br />

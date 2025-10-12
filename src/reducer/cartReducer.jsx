@@ -11,10 +11,10 @@ export const cartReducer = (state, action) => {
     case "removeFromCart":
       return { ...state, cartItems: state.cartItems.filter(item => item.id !== action.payload) };
 
-    // case "CLEAR_CART":
-    //   return { ...state, cartItems: [] };
+    case "clearCart":
+      return { ...state, cartItems: [] };
 
-    // default:
-    //   return state;
+    default:
+      return state;
   }
 };
