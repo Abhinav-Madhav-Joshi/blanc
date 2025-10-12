@@ -44,7 +44,7 @@ export const Cart = () => {
                         <div className="cartItems">
                         {cartItems.map(item => (
                             <div className="cartItem">
-                                <img src={item.imgSrc} className="cartImg" />
+                                <img src={item.imgSrc} className="cartImg" alt={item.title} />
                                 <div style={{flexGrow:"1"}}>
                                 <h3 className="itemTitle">{item.title}</h3>
                                 <span className="itemPrice">Price: ₹{item.buyPrice} {item.buyPrice<1000?"(Rent)":""}</span>

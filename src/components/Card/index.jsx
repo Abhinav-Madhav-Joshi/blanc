@@ -12,7 +12,7 @@ export const ProductCard = ({id,title,text,imgSrc}) => {
   return (
     <div className='cardWrapper'>
     <Card className='card'>
-      <Card.Img variant="top" src={imgSrc} />
+      <Card.Img variant="top" src={imgSrc} alt={title} />
       <Card.Body className='cardBody'>
         <Card.Title>{title}</Card.Title>
         <div className='cardContent'>
