@@ -1,11 +1,13 @@
 import { useParams } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import { products } from '../Home'; 
 import { prodDetails } from './details';
 import { NavBar } from '../../components/Navbar';
 import { useCart } from '../../context/cartContext';
 
 export const handleBuy = (Pid, cartDispatch) => {
-  alert("The product has been added to the cart!");
+  toast.success("Product added to cart!");
+  // alert("The product has been added to the cart!");
   cartDispatch({
     type: 'buyProd',
     payload: products.find((p) => p.id===Pid)
